@@ -1,0 +1,83 @@
+
+#allUsersDisplay{
+  width:800px;
+  margin:100px auto;
+}
+.alert{
+  font-size: 19px;
+}
+.description{
+  width:800px;
+  text-align: center;
+  background: #bebdbd;
+  padding:10px 0;
+  border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.description p{
+  font-weight: 300;
+  margin:0;
+  padding:0;
+  color:white;
+
+}
+form{
+    width:800px;
+    display: flex;
+    align-items: center;
+}
+input{
+  width:100%;
+  height:40px;
+padding:0 10px;
+}
+
+.addButton{
+margin:20px 0;
+  width:800px;
+  text-align: center;
+}
+.addButton button{
+width:500px;
+font-size: 20px;
+}
+#tableUsers{
+
+  width:800px;
+}
+table{
+border:solid 1px #cccccc;
+padding:0;
+ margin:0;
+ margin-top:60px;
+ border-collapse: collapse;
+ font-family:sans-serif;
+}
+thead{
+
+}
+th{
+    font-size: 17px;
+  text-align: left;
+  padding:8px 4px;
+  text-transform: uppercase;
+}
+td{
+  text-transform: capitalize;
+}
+
+/**********EDIT PAGE***********/
+#editPage{
+  margin:50px auto;
+  width:800px;
+}
+.editButtons{
+
+text-align: center;
+margin-top:30px;
+}
+.editButtons a{
+  font-size:19px;
+  margin:0 10px;
+  width:40%;
+}
